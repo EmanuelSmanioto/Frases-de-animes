@@ -12,6 +12,9 @@ body {
     align-items: center;
 }
 
+#subtitulo{
+    color: black;
+}
 
 #frase{
     color: rgb(226, 43, 43);
@@ -62,4 +65,12 @@ button{
     background: rgb(38, 0, 255);
     color: aliceblue;
 
+}
+
+
+button:hover{
+scale:1.1;
+ background-color: #1e46f7; 
+box-shadow: 0 4px 8px rgba(12, 1, 1, 0.205); 
+transition: all 0.3s ease;
 }
