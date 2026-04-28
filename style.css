@@ -13,7 +13,7 @@ body {
 }
 
 #subtitulo{
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 #frase{
@@ -73,4 +73,26 @@ scale:1.1;
  background-color: #1e46f7; 
 box-shadow: 0 4px 8px rgba(12, 1, 1, 0.205); 
 transition: all 0.3s ease;
+}
+
+
+body{
+    flex-direction: column;
+}
+#app{
+    margin: 50px;
+}
+header{
+    color: azure;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 10px;
+}
+
+footer{
+    padding: 20px;
 }
