@@ -5,8 +5,8 @@
 }
 
 body {
-    background-color: rgb(41, 146, 172);
-    color: rgb(255, 255, 255);
+    background-color: #24292e;
+    color: aliceblue;
     display: flex; 
     justify-content: center;
     align-items: center;
@@ -17,18 +17,28 @@ body {
 }
 
 #frase{
-    color: rgb(226, 43, 43);
+    color: rgb(216, 203, 203);
+    margin: 25px 0;
+    font-size: 18px;
+}
+#autor{
+    font-size: 14px;
+    color: aliceblue;
+}
+#anime{
+    font-size: 14px;
+    color: aliceblue;
 }
 
 #app {
-    background: rgb(67, 158, 143);
+    background: #24292e;
     display: flex;
     flex-direction: column;
     width: 380px;
     height: 500px;
     padding: 15px;
     border-radius: 15px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
 }
 
 main {
@@ -43,11 +53,12 @@ main {
 }
 
 nav {
-    border-top: 2px solid rgb(34, 12, 12);
+    border-top: 2px solid rgb(151, 147, 147);
     display: flex;
     align-items: center;
     padding: 20px;
     justify-content: space-between;
+    color: rgb(199, 204, 209);
 }
 
 #msg{
@@ -62,7 +73,7 @@ button{
     height:80px;
     border-radius: 50%;
     border: none;
-    background: rgb(38, 0, 255);
+    background: rgb(51, 80, 175);
     color: aliceblue;
 
 }
@@ -70,7 +81,7 @@ button{
 
 button:hover{
 scale:1.1;
- background-color: #1e46f7; 
+ background-color: #172f9b; 
 box-shadow: 0 4px 8px rgba(12, 1, 1, 0.205); 
 transition: all 0.3s ease;
 }
@@ -95,6 +106,7 @@ header{
 
 footer{
     padding: 20px;
+    color: aliceblue;
 }
 
 h1{
