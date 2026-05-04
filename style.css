@@ -12,26 +12,8 @@ body {
     align-items: center;
 }
 
-#subtitulo{
-    color: rgb(255, 255, 255);
-}
-
-#frase{
-    color: rgb(216, 203, 203);
-    margin: 25px 0;
-    font-size: 18px;
-}
-#autor{
-    font-size: 14px;
-    color: aliceblue;
-}
-#anime{
-    font-size: 14px;
-    color: aliceblue;
-}
-
 #app {
-    background: #24292e;
+    background: #252e24;
     display: flex;
     flex-direction: column;
     width: 380px;
@@ -110,6 +92,27 @@ footer{
 }
 
 h1{
-    color: black;
+    color: rgb(241, 7, 7);
+    box-shadow: 0 0 30px rgb(255, 21, 21);
+    border-radius: 15px;
+    padding: 10px;
 }
-    
+   
+#subtitulo{
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+}
+
+#frase{
+    color: rgb(101, 103, 219);
+    margin: 25px 0;
+    font-size: 18px;
+}
+#autor{
+    font-size: 14px;
+    color: aliceblue;
+}
+#anime{
+    font-size: 14px;
+    color: aliceblue;
+}
